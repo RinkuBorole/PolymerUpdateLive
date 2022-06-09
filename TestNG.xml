@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="PolymerupdateV1">
+
+	<listeners>
+			<listener class-name="com.polymerUpdate.utilities.Reporting"></listener>
+	</listeners>
+
+	<test name = "Polymerupdate Test">
+	
+		<parameter name = "browser" value = "chrome" />
+		<classes>
+		<!-- 	<class name="com.polymerUpdate.testCases.TC_LoginDDT_001"></class>  -->
+		<!--  	<class name="com.polymerUpdate.testCases.TC_LoginTest_001"></class>  -->
+		<!-- class name="com.polymerUpdate.testCases.TC_RegistrationTest_003"></class> -->
+			<!--	<class name="com.polymerUpdate.testCases.TC_RegistrationDDT_004"></class>-->
+			<class name="com.polymerUpdate.testCases.Test"></class>
+		
+		</classes>
+		
+	</test>
+
+</suite>
